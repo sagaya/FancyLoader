@@ -7,7 +7,7 @@
 
 An easy way to handle full screen activity indicator.
 
-![fancyloader](https://i.imgur.com/ZUy50cg.gif)
+![fancyloader](https://i.imgur.com/ZUy50cg.gif){:height="50%" width="50%"}
 
 Easy to use
 
