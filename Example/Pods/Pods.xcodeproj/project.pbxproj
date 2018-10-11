@@ -11,7 +11,6 @@
 		518CEC70596F5B8AFEFE5F31A308E2C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		5E8AC2DCC1BF349CCD74DC60CCDE1391 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		9FC5E36D216FFDC90092361E /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5E36C216FFDC90092361E /* Loader.swift */; };
-		9FC5E36F217001470092361E /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC5E36E217001470092361E /* Media.xcassets */; };
 		ABD8F977F7281AC2F43D49057BE7F1E1 /* fancyloader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23822B778078001FE6DCAFBA894AA418 /* fancyloader-dummy.m */; };
 		B554B073F2AF4964655D610E081862EA /* Pods-fancyloader_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B54BBBA6109C2DA69D9D7BD83DA1D11 /* Pods-fancyloader_Example-dummy.m */; };
 		D93134675ACB1480D73D919695B6DFB6 /* Pods-fancyloader_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB626C3FAB11EE870250D904EE5B8303 /* Pods-fancyloader_Tests-dummy.m */; };
@@ -61,7 +60,6 @@
 		8D8FFF4597563E1C11847E1B3CA024A8 /* fancyloader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = fancyloader.xcconfig; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FC5E36C216FFDC90092361E /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
-		9FC5E36E217001470092361E /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		A250937C3E1F79E5E2EF6C6BDACD2CD0 /* fancyloader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "fancyloader-prefix.pch"; sourceTree = "<group>"; };
 		A30025DE79BC4045A11011D78F9510EF /* Pods-fancyloader_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-fancyloader_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A58479665CDBAD0AC06A13AB5D5BE53E /* Pods-fancyloader_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-fancyloader_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -164,6 +162,14 @@
 			);
 			sourceTree = "<group>";
 		};
+		9FD6870E2170181F0099F1CD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9FC5E36C216FFDC90092361E /* Loader.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		B09D838EE746C292E3DD3425458C729F /* Pods-fancyloader_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -221,10 +227,9 @@
 		D5EE1ECFEA2B144AC4D8DCD9679C13F9 /* fancyloader */ = {
 			isa = PBXGroup;
 			children = (
+				9FD6870E2170181F0099F1CD /* Classes */,
 				17D82922EE4288925889709896A87D28 /* Pod */,
 				0DDE11EFB4551022F8CC939704EEF889 /* Support Files */,
-				9FC5E36C216FFDC90092361E /* Loader.swift */,
-				9FC5E36E217001470092361E /* Media.xcassets */,
 			);
 			name = fancyloader;
 			path = ../..;
@@ -361,7 +366,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FC5E36F217001470092361E /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
