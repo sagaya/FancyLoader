@@ -10,6 +10,7 @@ import UIKit
 
 import fancyloader
 
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
