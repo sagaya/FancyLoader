@@ -1,0 +1,6 @@
+framework module Pods_fancyloader_Tests {
+  umbrella header "Pods-fancyloader_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

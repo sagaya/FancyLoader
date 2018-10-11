@@ -1,0 +1,6 @@
+framework module fancyloader {
+  umbrella header "fancyloader-umbrella.h"
+
+  export *
+  module * { export * }
+}

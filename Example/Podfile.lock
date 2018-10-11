@@ -1,0 +1,16 @@
+PODS:
+  - fancyloader (0.1.0)
+
+DEPENDENCIES:
+  - fancyloader (from `../`)
+
+EXTERNAL SOURCES:
+  fancyloader:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  fancyloader: 3356a7b21ac5b9c8c23cb35f28a7c0dca80944ce
+
+PODFILE CHECKSUM: d97ef170799927f9006c8cb57f21a2c39575687c
+
+COCOAPODS: 1.5.3
