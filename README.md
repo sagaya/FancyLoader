@@ -7,17 +7,17 @@
 
 An easy way to handle full screen activity indicator.
 
-![fancyloader](https://i.postimg.cc/0jDRcPw4/ezgif-com-video-to-gif-1.gif)
+![fancyloader](https://i.imgur.com/ZUy50cg.gif)
 
 Easy to use
 
 ### Get Started
 
 ```swift
-// Show spinner
+// Show Loader
 Loader.shared.show(image:String)
 
-// Hide spinner
+// Hide Loader
 Loader.shared.hide()
 ```
 
