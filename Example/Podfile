@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'fancyloader_Example' do
+  pod 'fancyloader', :path => '../'
+
+  target 'fancyloader_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
