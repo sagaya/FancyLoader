@@ -7,7 +7,7 @@
 
 An easy way to handle full screen activity indicator.
 
-![fancyloader](blob:https://imgur.com/e59634a8-bc4a-4d02-8c0c-fbf99d0f8070)
+![fancyloader](https://i.imgur.com/XuRlg94.gif)
 
 Easy to use
 
